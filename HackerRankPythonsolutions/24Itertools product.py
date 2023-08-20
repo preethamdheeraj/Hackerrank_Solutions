@@ -1,8 +1,8 @@
 from itertools import product
 
-firstArray = list(map(int, input().split()))
-secondArray = list(map(int, input().split()))
-cartesionProduct = list(product(firstArray, secondArray))
+first_array = list(map(int, input().split()))
+second_array = list(map(int, input().split()))
+cartesian_product = list(product(first_array, second_array))
 
-for pair in cartesionProduct:
+for pair in cartesian_product:
     print(pair, end=" ")

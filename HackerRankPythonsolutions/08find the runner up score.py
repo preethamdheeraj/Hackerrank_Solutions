@@ -1,8 +1,8 @@
 number = int(input())
 scores = list(map(int, input().split()))
 
-maxScores = max(scores)
-scores = [score for score in scores if score != maxScores]
+max_scores = max(scores)
+scores = [score for score in scores if score != max_scores]
 
 if not scores:
     runner_up_score = None

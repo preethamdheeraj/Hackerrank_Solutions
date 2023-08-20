@@ -1,8 +1,8 @@
 students = []
 second_lowest_names = []
-numberOfStudents = int(input())
+number_of_students = int(input())
 
-for i in range(numberOfStudents):
+for i in range(number_of_students):
     name = input()
     score = float(input())
     students.append([name, score])
