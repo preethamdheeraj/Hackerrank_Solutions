@@ -4,5 +4,5 @@ import calendar
 
 month, day, year = map(int, input().split())
 weekday = calendar.weekday(year, month, day)
-weekdayName = calendar.day_name[weekday].upper()
-print(weekdayName)
+week_day_name = calendar.day_name[weekday].upper()
+print(week_day_name)

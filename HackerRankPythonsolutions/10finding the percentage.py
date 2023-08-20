@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+if __name__ == "__main__":
     n = int(input())
     student_marks = {}
     for _ in range(n):
@@ -7,6 +7,6 @@ if __name__ == '__main__':
         student_marks[name] = scores
     query_name = input()
 
-listofStudentMarks = list(student_marks[query_name])
-averageofMarks = sum(listofStudentMarks) / len(listofStudentMarks)
+listof_student_marks = list(student_marks[query_name])
+averageofMarks = sum(listof_student_marks) / len(listof_student_marks)
 print("%.2f" % averageofMarks)

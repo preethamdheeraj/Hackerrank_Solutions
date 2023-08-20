@@ -2,9 +2,9 @@
 
 import cmath
 
-complexNumber = complex(input())
-r = abs(complexNumber)
-phi = cmath.phase(complexNumber)
+complex_number = complex(input())
+r = abs(complex_number)
+phi = cmath.phase(complex_number)
 
 print(r)
 print(phi)

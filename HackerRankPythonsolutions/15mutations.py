@@ -1,7 +1,7 @@
 def mutate_string(string, position, character):
-    listNumberOne = list(string)
-    listNumberOne[position] = character
-    stringReturn = "".join(listNumberOne)
+    list_number_one = list(string)
+    list_number_one[position] = character
+    stringReturn = "".join(list_number_one)
     return stringReturn
 
 
